@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import NlwLogo from '../assets/nlw-spacetime-logo.svg'
+import Link from 'next/link'
 
 const Hero = () => (
   <div className='space-y-5'>
@@ -13,12 +14,12 @@ const Hero = () => (
         com o mundo!
       </p>
     </div>
-    <a
+    <Link
       className='inline-block rounded-full bg-green-500 px-5 py-3 font-alt text-sm uppercase leading-none text-black hover:bg-green-600'
-      href='#'
+      href='/memories/new'
     >
       cadastrar lembrança
-    </a>
+    </Link>
   </div>
 )
 
