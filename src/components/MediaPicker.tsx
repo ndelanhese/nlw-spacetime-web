@@ -16,6 +16,7 @@ const MediaPicker = () => {
       <input
         type='file'
         id='media'
+        name='coverURL'
         className='invisible h-0 w-0'
         accept='image/*'
         multiple={false}
