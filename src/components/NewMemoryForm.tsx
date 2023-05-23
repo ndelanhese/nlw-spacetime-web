@@ -32,7 +32,10 @@ const NewMemoryForm = () => {
     router.push('/')
   }
   return (
-    <form className='flex flex-col gap-2 flex-1' onSubmit={handleCreateMemory}>
+    <form
+      className='flex flex-col gap-2 flex-1 p-16'
+      onSubmit={handleCreateMemory}
+    >
       <div className='flex items-center gap-4'>
         <label
           htmlFor='media'
